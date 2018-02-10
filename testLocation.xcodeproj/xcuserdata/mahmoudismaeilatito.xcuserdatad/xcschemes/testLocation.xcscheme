@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93DB09392024CB6A006948FF"
-               BuildableName = "testLocation.app"
-               BlueprintName = "testLocation"
+               BuildableName = "Your_Resturant.app"
+               BlueprintName = "Your_Resturant"
                ReferencedContainer = "container:testLocation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93DB09392024CB6A006948FF"
-            BuildableName = "testLocation.app"
-            BlueprintName = "testLocation"
+            BuildableName = "Your_Resturant.app"
+            BlueprintName = "Your_Resturant"
             ReferencedContainer = "container:testLocation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93DB09392024CB6A006948FF"
-            BuildableName = "testLocation.app"
-            BlueprintName = "testLocation"
+            BuildableName = "Your_Resturant.app"
+            BlueprintName = "Your_Resturant"
             ReferencedContainer = "container:testLocation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93DB09392024CB6A006948FF"
-            BuildableName = "testLocation.app"
-            BlueprintName = "testLocation"
+            BuildableName = "Your_Resturant.app"
+            BlueprintName = "Your_Resturant"
             ReferencedContainer = "container:testLocation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

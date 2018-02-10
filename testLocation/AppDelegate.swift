@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import Firebase
+import GoogleMaps
+import GooglePlaces
+import GooglePlacePicker
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +21,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSPlacesClient.provideAPIKey("AIzaSyC6h8xSi6X8_VU8EM8iDkPlCnDyQF0-B7w")
+        GMSServices.provideAPIKey("AIzaSyC6h8xSi6X8_VU8EM8iDkPlCnDyQF0-B7w")
+        
+        self.window = UIWindow(frame : UIScreen.main.bounds)
+        if let window = self.window{
+            window.backgroundColor = UIColor.white
+            
+            let nav = UINavigationController()
+            let mainView = ViewController()
+            
+            nav.viewControllers = [mainView]
+            window.rootViewController = nav
+            window.makeKeyAndVisible()
+        }
+        
         return true
     }
 
